@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BillingApp</string>
+    <string name="b1_name">Billing</string>
+    <string name="b2_name">Edit Items</string>
+    <string name="some_text">Some Items</string>
+    <string name="some_hint">Type here to filter&#8230;</string>
+</resources>
