@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-
+    private ItemsDbAdapter dbHelper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,5 +30,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        dbHelper = new ItemsDbAdapter(this);
+        dbHelper.open();
+        //Add some data
+        dbHelper.insertSomeItems();
+        dbHelper.close();
     }
 }

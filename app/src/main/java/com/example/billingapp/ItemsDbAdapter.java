@@ -25,7 +25,7 @@ public class ItemsDbAdapter {
     private SQLiteDatabase mDb;
 
     private static final String DATABASE_NAME = "Stock";
-    private static final String SQLITE_TABLE = "Items";
+    private static final String SQLITE_TABLE = "Item";
     private static final int DATABASE_VERSION = 1;
 
     private final Context mCtx;
@@ -131,7 +131,7 @@ public class ItemsDbAdapter {
         return mCursor;
     }
 
-    public void insertSomeCountries() {
+    public void insertSomeItems() {
 
         createItem("1234","CD","5","10");
         createItem("2314","DVD","10","20");

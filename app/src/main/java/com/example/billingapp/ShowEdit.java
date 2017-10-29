@@ -33,8 +33,6 @@ public class ShowEdit extends AppCompatActivity {
         setContentView(R.layout.activity_show_edit);
         dbHelper = new ItemsDbAdapter(this);
         dbHelper.open();
-        //Add some data
-        dbHelper.insertSomeCountries();
         //Generate ListView from SQLite Database
         displayListView();
 

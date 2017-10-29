@@ -4,4 +4,6 @@
     <string name="b2_name">Edit Items</string>
     <string name="some_text">Some Items</string>
     <string name="some_hint">Type here to filter&#8230;</string>
+    <string name="bill_us">Add items</string>
+    <string name="total_us">Total :</string>
 </resources>
